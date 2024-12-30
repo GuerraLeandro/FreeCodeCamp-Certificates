@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#treemap {
+    border: 1px solid #ccc;
+}
+
+.tile {
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.legend-item {
+    stroke: #fff;
+}
+
+#legend svg {
+    display: block;
+    margin: 20px auto;
+}

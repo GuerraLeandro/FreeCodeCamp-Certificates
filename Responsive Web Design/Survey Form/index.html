@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="title">Customer Feedback Survey</h1>
+        <p id="description">We value your feedback. Please fill out this survey form to help us improve.</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <!-- Name Input -->
+            <div class="form-group">
+                <label id="name-label" for="name">Name:</label>
+                <input 
+                    id="name" 
+                    type="text" 
+                    placeholder="Enter your full name" 
+                    required>
+            </div>
+            
+            <!-- Email Input -->
+            <div class="form-group">
+                <label id="email-label" for="email">Email:</label>
+                <input 
+                    id="email" 
+                    type="email" 
+                    placeholder="Enter your email address" 
+                    required>
+            </div>
+            
+            <!-- Number Input -->
+            <div class="form-group">
+                <label id="number-label" for="number">Age:</label>
+                <input 
+                    id="number" 
+                    type="number" 
+                    placeholder="Enter your age" 
+                    min="18" 
+                    max="120" 
+                    required>
+            </div>
+
+            <!-- Dropdown -->
+            <div class="form-group">
+                <label for="dropdown">How did you hear about us?</label>
+                <select id="dropdown" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="friend">Friend or Family</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons -->
+            <fieldset>
+                <legend>How satisfied are you with our service?</legend>
+                <label><input type="radio" name="satisfaction" value="very-satisfied" required> Very Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="satisfied"> Satisfied</label>
+                <label><input type="radio" name="satisfaction" value="dissatisfied"> Dissatisfied</label>
+            </fieldset>
+
+            <!-- Checkboxes -->
+            <fieldset>
+                <legend>What services did you use? (Select all that apply)</legend>
+                <label><input type="checkbox" name="services" value="delivery"> Delivery</label>
+                <label><input type="checkbox" name="services" value="consultation"> Consultation</label>
+                <label><input type="checkbox" name="services" value="support"> Support</label>
+            </fieldset>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" rows="5" placeholder="Write your comments here"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button id="submit" type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>

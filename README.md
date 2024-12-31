@@ -14,7 +14,10 @@ Welcome to my certification page! Below are the certificates I've earned through
 - **Description:** Learning how to present data in a clear, interactive way using charts and graphs.
 - **Skills Acquired:** D3.js, Data Visualization Techniques, JSON.
 
----
+### 3. [Front End Development Libraries](https://www.freecodecamp.org/certification/fcc3e6da1a9-34b0-45b6-a3e1-884033fede19/front-end-development-libraries)
+- **Description:** Focuses on libraries like React, Redux, and Bootstrap to enhance front-end development.
+- **Skills Acquired:** React, Redux, Bootstrap, jQuery, Sass.
+
 
 ## Future Certificate Goals
 
@@ -24,15 +27,11 @@ I'm continuously working on expanding my knowledge and skill set in web developm
 - **Description:** This certification will deepen my understanding of algorithms and data structures in JavaScript.
 - **Skills Acquired:** JavaScript, Algorithms, Data Structures, Problem Solving.
 
-### 2. [Front End Development Libraries](https://www.freecodecamp.org/learn/front-end-development-libraries/)
-- **Description:** Focuses on libraries like React, Redux, and Bootstrap to enhance front-end development.
-- **Skills Acquired:** React, Redux, Bootstrap, jQuery, Sass.
-
-### 3. [Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
+### 2. [Back End Development and APIs](https://www.freecodecamp.org/learn/back-end-development-and-apis/)
 - **Description:** Covers back-end development, including APIs, Node.js, Express.js, and MongoDB.
 - **Skills Acquired:** Node.js, Express.js, MongoDB, API Development.
 
-### 4. [Foundational C# with Microsoft](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
+### 3. [Foundational C# with Microsoft](https://www.freecodecamp.org/learn/foundational-c-sharp-with-microsoft/)
 - **Description:** Learning the basics of C# programming with Microsoft.
 - **Skills Acquired:** C#, .NET Framework, Object-Oriented Programming.
 

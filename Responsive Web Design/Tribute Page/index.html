@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Olavo de Carvalho</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main id="main">
+    <header>
+      <h1 id="title">Tribute to Olavo de Carvalho</h1>
+    </header>
+
+    <section id="image-section">
+      <div id="img-div">
+        <img 
+          id="image" 
+          src="https://live.staticflickr.com/5663/20777008266_697538f52d_b.jpg" 
+          alt="Olavo de Carvalho portrait">
+        <div id="img-caption">
+          Olavo de Carvalho, one of Brazil's most influential contemporary philosophers.
+        </div>
+      </div>
+    </section>
+
+    <section id="tribute-info">
+      <p>
+        Olavo de Carvalho (1947–2022) was a Brazilian philosopher, writer, and political thinker. Known for his profound analysis of contemporary culture and politics, his works deeply impacted generations with reflections on philosophy, religion, and society. Olavo significantly contributed to conservative thought in Brazil and authored several books. Here's a carousel of some of his works:
+      </p>
+    </section>
+
+    <section id="tribute-link-section">
+      <a id="tribute-link" href="https://olavodecarvalho.org/wp-content/uploads/2017/06/R%C3%A9sum%C3%A9-English.pdf" target="_blank">
+        Learn more about Olavo de Carvalho
+      </a>
+    </section>
+
+    <section class="carousel">
+      <input type="radio" name="dot" id="one">
+      <input type="radio" name="dot" id="two">
+      <div class="carousel-wrapper">
+        <div class="carousel-content">
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-img">
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/e2/O_Jardim_das_Afli%C3%A7%C3%B5es.jpg" alt="O Jardim das Aflições">
+              </div>
+              <div class="card-info">
+                <h2 class="book-title">O Jardim das Aflições</h2>
+                <p class="book-subtitle">The Garden of Afflictions</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-img">
+                <img src="https://m.media-amazon.com/images/I/61RKQ5JNJSL._AC_UF1000,1000_QL80_.jpg" alt="O Imbecil Coletivo">
+              </div>
+              <div class="card-info">
+                <h2 class="book-title">O Imbecil Coletivo</h2>
+                <p class="book-subtitle">The Collective Imbecile</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-img">
+                <img src="https://m.media-amazon.com/images/I/71bJm9i0CCL.jpg" alt="Aristóteles em Nova Perspectiva">
+              </div>
+              <div class="card-info">
+                <h2 class="book-title">Aristóteles em Nova Perspectiva</h2>
+                <p class="book-subtitle">Aristotle in a New Perspective</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <label for="one" class="active"></label>
+        <label for="two"></label>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

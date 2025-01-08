@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background: #6783FF; 
+  clip-path: inset(47% 0 0 0);
+  z-index: -1;
+  height: 100%;
+}
+
+::selection {
+  background: #6783FF;
+  color: #fff;
+}
+
+#title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#image-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#img-div {
+  display: inline-block;
+  max-width: 70%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#image {
+  display: block; /* Ensures image is block level */
+  max-width: 100%; /* Ensures image is responsive */
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 1.1rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 15px;
+  text-align: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+#tribute-info {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+#tribute-link {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #fff;
+  background: #6783FF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#tribute-link:hover {
+  background: #4a65e6;
+}
+
+.carousel {
+  max-width: 950px;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  transition: 1s ease;
+}
+
+#two:checked ~ .carousel-wrapper {
+  margin-left: -100%;
+}
+
+.carousel-content {
+  display: flex;
+  justify-content: space-between;
+  width: 200%;
+  transition: all 1s ease;
+}
+
+.carousel-item {
+  width: calc(33.33% - 20px);
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  background: #6783FF; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-img img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.book-subtitle {
+  font-size: 1rem;
+  color: #6783FF;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-controls label {
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.carousel-controls label.active {
+  width: 35px;
+}
+
+#one:checked ~ .carousel-controls .active {
+  width: 35px;
+}
+
+#two:checked ~ .carousel-controls .active {
+  width: 15px;
+}
+
+input[type="radio"] {
+  display: none;
+}
